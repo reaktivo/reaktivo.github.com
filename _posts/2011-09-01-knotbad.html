@@ -1,0 +1,28 @@
+---
+layout: post
+title: Knotbad
+category: work
+---
+
+<link rel="stylesheet" type="text/css" href="/css/shared/iphone.css"/>
+
+<div id="knotbad_demo" class="iphone">
+  <div class="screen_mask">
+    <div class="view_container">
+      <img src="/images/knotbad/knotbad_01.png"/>
+      <img src="/images/knotbad/knotbad_02.png"/>
+      <img src="/images/knotbad/knotbad_03.png"/>
+    </div>
+  </div>
+</div>
+
+<script>
+  $LAB
+    .setOptions({AlwaysPreserveOrder: true})
+    .script('/js/libs/mootools-core-1.3.2-full-nocompat-yc.js')
+    .script('/js/libs/mootools-more-1.3.2.1.js')
+    .script('/js/iphone-demo.js')
+    .wait(function() {
+      new iPhoneDemo($('knotbad_demo'));
+    });  
+</script>
