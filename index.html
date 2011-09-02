@@ -1,0 +1,19 @@
+---
+layout: default
+title: Reaktivo
+---
+
+{% for post in site.posts %} 
+  <div class="post-wrapper"
+    {% if post.style %} 
+      style="color:{{post.style.color}};background:{{post.style.background}};"
+    {% endif %}>
+  
+    <div class="post multiple">
+      <h1><a href="{{ post.url }}"
+      {% if post.style %} style="color:{{post.style.color}};"{% endif %}>{{ post.title }}</a></h1>
+      {{ post.content }}
+    </div>
+  
+  </div>
+{% endfor %}

@@ -1,0 +1,72 @@
+@import "reset";
+
+@main_width: 640px;
+@text_color: #eee;
+@background_color: #333;
+
+.centered_col {
+  width: @main_width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  color: @text_color;
+  background: @background_color;
+  font-family: 'Varela Round', Verdana, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  color: @text_color;
+  font-weight: normal;
+}
+
+a { color: lighten(@text_color, 20%); text-decoration: none}
+a:visited { color: lighten(@text_color, 50%); }
+a:focus { outline: thin dotted; }
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  color: @text_color;
+  line-height: 1.6em;
+  font-family: Verdana, sans-serif;
+}
+
+#container > header {
+  margin: 0;
+  background: #2a2a2a;
+  nav {
+    margin: 0;
+    font-size: 14px;
+    .centered_col;
+    a {
+      color: #c0c0c0;
+      line-height: 32px;
+      margin-right: 1em;
+      &:hover {
+        color: #eee;
+      }
+    }
+    
+    .other_links {
+      margin-left: 20px;
+      font-size: 12px;
+    }
+  }
+  
+}
+
+.post-wrapper {
+  padding: 50px 0;
+  background-attachment: fixed;
+}
+
+.post {
+  .centered_col;
+}
+
+.page {
+  .centered_col;
+}

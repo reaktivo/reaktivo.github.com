@@ -1,0 +1,9 @@
+
+# Enables or disables Jekyll from recreating the site when files are modified.
+auto: true
+
+# Controls the URLs that posts are generated with. Please refer to the Permalinks page for more info.
+permalink: /:categories/:title
+
+# Sets markdown engine
+markdown: maruku
