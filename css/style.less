@@ -21,16 +21,18 @@ h1, h2, h3, h4 {
   font-weight: normal;
 }
 
-a { color: lighten(@text_color, 20%); text-decoration: none}
+a { color: lighten(@text_color, 20%)}
 a:visited { color: lighten(@text_color, 50%); }
 a:focus { outline: thin dotted; }
 a:hover {
   text-decoration: underline;
+  background: #111;
 }
 
-p {
+p, ul, li {
   color: @text_color;
-  line-height: 1.6em;
+  font-size: 11px;
+  line-height: 18px;
   font-family: Verdana, sans-serif;
 }
 
@@ -45,8 +47,15 @@ p {
       color: #c0c0c0;
       line-height: 32px;
       margin-right: 1em;
+      text-decoration: none;
+      border-radius: 15px;
+      padding: 5px 8px;
+      margin-left: -8px;
+      margin-top: -5px;
+      -webkit-transition: all 0.15s ease-in-out;
       &:hover {
         color: #eee;
+        background: #000;
       }
     }
     
