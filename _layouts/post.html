@@ -2,10 +2,8 @@
 layout: default
 ---
 
-<div class="post single">
-  <h2><a href="{{ page.url }}"{% if page.style %} style="color:{{page.style.color}};"{% endif %}>{{ page.title }}</a></h2>
-  {{content}}  
-</div>
+{{content}}  
+
 {% if page.disqus %}
   <div id="disqus_thread" class="centered_col"></div>
   <script type="text/javascript">
