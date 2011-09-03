@@ -23,19 +23,16 @@ h1, h2, h3, h4 {
   font-weight: normal;
 }
 
-a { color: lighten(@text_color, 20%)}
-a:visited { color: lighten(@text_color, 50%); }
+a { color: inherit}
+a:visited { color: inherit }
 a:focus { outline: thin dotted; }
 a:hover {
   text-decoration: underline;
-  background: #111;
 }
 
 p, ul, li, a, span {
-  color: @text_color;
   font-size: 11px;
   line-height: @line_height;
-  font-family: Verdana, sans-serif;
 }
 
 #container > header {
@@ -74,12 +71,14 @@ p, ul, li, a, span {
   margin: 0;
   padding: 50px 0;
   position: relative;
+  font-family: Verdana, sans-serif;
   
   .meta {
     background: #222;
     .box-shadow(5px 5px 0 #111);
     float: right;
     a.date {
+      color: #fff;
       margin: 0;
       line-height: @line_height;
       padding: @line_height/2;
@@ -121,3 +120,27 @@ p, ul, li, a, span {
   }
   
 }
+
+.centered-post {
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  p {
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
