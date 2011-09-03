@@ -1,13 +1,15 @@
-@import "/css/reset";
+@import "reset";
+@import "bootstrap";
 
 @main_width: 640px;
 @text_color: #eee;
+@bar_height: 32px;
+@line_height: 18px;
 @background_color: #333;
 
 .centered_col {
+  .center-block;
   width: @main_width;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 body {
@@ -29,10 +31,10 @@ a:hover {
   background: #111;
 }
 
-p, ul, li {
+p, ul, li, a, span {
   color: @text_color;
   font-size: 11px;
-  line-height: 18px;
+  line-height: @line_height;
   font-family: Verdana, sans-serif;
 }
 
@@ -43,9 +45,10 @@ p, ul, li {
     margin: 0;
     font-size: 14px;
     .centered_col;
+    height: @bar_height;
     a {
       color: #c0c0c0;
-      line-height: 32px;
+      line-height: @bar_height;
       margin-right: 1em;
       text-decoration: none;
       border-radius: 15px;
@@ -67,9 +70,28 @@ p, ul, li {
   
 }
 
-.post-wrapper {
+.post_wrapper {
+  margin: 0;
   padding: 50px 0;
-  background-attachment: fixed;
+  position: relative;
+  
+  .meta {
+    background: #222;
+    .box-shadow(5px 5px 0 #111);
+    float: right;
+    a.date {
+      margin: 0;
+      line-height: @line_height;
+      padding: @line_height/2;
+      text-align: right;
+      display: block;
+      text-decoration: none;
+      &:hover {
+        background: #9DD400;
+      }
+    }
+  }
+  
 }
 
 .post {
@@ -78,4 +100,24 @@ p, ul, li {
 
 .page {
   .centered_col;
+}
+
+.iphone_post {
+  .centered_col;
+  overflow: hidden;
+  width: 500px;
+  padding: 100px 0;
+  
+  .iphone {
+    float: left;
+    width: 240px;
+    margin-right: 10px;
+  }
+  
+  .info {
+    float: right;
+    width: 240px;
+    margin-left: 10px;
+  }
+  
 }
