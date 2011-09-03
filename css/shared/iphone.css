@@ -3,6 +3,7 @@
   width: 243px;
   height: 476px;
   position: relative;
+  z-index: 100;
 }
 
 .iphone .screen_mask {
@@ -22,4 +23,14 @@
 .iphone .view_container img {
   display: block;
   float: left;
+}
+
+.iphone .reflection {
+  width: 205px;
+  height: 308px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(/images/shared/iphone_reflection.png) no-repeat;
+  z-index: 100;
 }
