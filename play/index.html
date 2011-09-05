@@ -1,0 +1,18 @@
+---
+layout: default
+title: Play
+---
+{% for post in site.categories.play %} 
+  <div class="post_wrapper"
+    {% if post.style %} 
+      style="color:{{post.style.color}};background:{{post.style.background}};"
+    {% endif %}>
+  
+    <div class="meta">
+      <a class="date" href="{{post.url}}">Permalink {{post.date | date: "%Y.%m.%d"}}</a>
+    </div>
+  
+    {{ post.content }}
+  
+  </div>
+{% endfor %}
