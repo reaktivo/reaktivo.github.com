@@ -31,18 +31,21 @@ style:
     
     <p>La descripción en la App Store (en inglés):</p>
     <p>Knotbad boasts fully interactive step-by-step graphics with instant replay, making it easier for you to follow each knot. From the everyday Half-Windsor to the unique Onassis knot, Knotbad will walk you through to the perfect look for a night out on the town or a day at the park.</p>
+    
+    <p><strong><a href="http://itunes.apple.com/us/app/knotbad/id383456880?mt=8">Disponible en la App Store</a></strong></p>
+    
   </div>
   
   
 </div>
 
 <script>
-  $LAB
-    .setOptions({AlwaysPreserveOrder: true})
-    .script('/js/libs/mootools-core-1.3.2-full-nocompat-yc.js')
-    .script('/js/libs/mootools-more-1.3.2.1.js')
-    .script('/js/iphone-demo.js')
-    .wait(function() {
+  head.js(
+    '/js/libs/mootools-core-1.3.2-full-nocompat-yc.js',
+    '/js/libs/mootools-more-1.3.2.1.js',
+    '/js/iphone-demo.js',
+    function() {
       new iPhoneDemo($('knotbad_demo'));
-    });  
+    }
+  );
 </script>

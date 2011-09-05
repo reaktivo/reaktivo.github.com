@@ -34,18 +34,21 @@ style:
       <li>Save your lists for future use</li>
       <li>This app gives you a list of your most popular items</li>
     </ul>
+    
+    <p><strong><a href="http://itunes.apple.com/us/app/super-shopper-grocery-shopping/id422238185?mt=8">Disponible en la App Store</a></strong></p>
+    
   </div>
   
   
 </div>
 
 <script>
-  $LAB
-    .setOptions({AlwaysPreserveOrder: true})
-    .script('/js/libs/mootools-core-1.3.2-full-nocompat-yc.js')
-    .script('/js/libs/mootools-more-1.3.2.1.js')
-    .script('/js/iphone-demo.js')
-    .wait(function() {
+  head.js(
+    '/js/libs/mootools-core-1.3.2-full-nocompat-yc.js',
+    '/js/libs/mootools-more-1.3.2.1.js',
+    '/js/iphone-demo.js',
+    function() {
       new iPhoneDemo($('supershopper_demo'));
-    });  
+    }
+  );
 </script>
