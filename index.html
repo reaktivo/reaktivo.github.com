@@ -10,12 +10,9 @@ title: Reaktivo
     {% endif %}>
   
     <div class="meta">
-      <a class="date" href="#">Posted on {{post.date | date: "%Y.%m.%d"}}</a>
+      <a class="date" href="{{post.url}}">Permalink {{post.date | date: "%Y.%m.%d"}}</a>
     </div>
-  
-    <div class="post">
-      {{ post.content }}
-    </div>
+    {{ post.content }}
   
   </div>
 {% endfor %}
