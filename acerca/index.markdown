@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Acerca de
+class: acerca-de
 style:
   background: "#222"
 ---
 
+![Yo](/images/me.gif)
 Marcel Miranda  
 11/08/1986  
 Tijuana, México
