@@ -3,16 +3,15 @@ layout: default
 title: Reaktivo
 ---
 
-{% for post in site.posts %} 
-  <div class="post_wrapper"
-    {% if post.style %} 
+{% for post in site.posts %}
+  <a href="{{post.url}}" class="post_wrapper"
+    {% if post.style %}
       style="color:{{post.style.color}};background:{{post.style.background}};"
     {% endif %}>
-  
-    <div class="meta">
-      <a class="date" href="{{post.url}}">Permalink {{post.date | date: "%Y.%m.%d"}}</a>
-    </div>
-    {{ post.content }}
-  
-  </div>
+    <hgroup>
+      <h2 class="title">{{ post.title }}</h2>
+      <h3 class="date">{{post.date | date: "%Y.%m.%d"}}</h3>
+    </hgroup>
+
+  </a>
 {% endfor %}

@@ -4,52 +4,50 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>Reaktivo</title>
-	<meta name="description" content="Work / Reaktivo">
-	<meta name="author" content="Marcel Miranda Ackerman">
+  <title>Reaktivo</title>
+  <meta name="description" content="Work / Reaktivo">
+  <meta name="author" content="Marcel Miranda Ackerman">
 
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet/less" type="text/css" href="/css/style.less">
-	<script src="/js/libs/head.min.js"></script>
-	<script src="/js/libs/less-1.1.3.min.js"></script>
-	
-	{% if page.style %}
-	  <style> 
-	    body {
-	      color: {{page.style.color}};
+  <link rel="stylesheet/less" type="text/css" href="/css/style.less">
+  <script src="/js/libs/head.min.js"></script>
+  <script src="/js/libs/less-1.1.3.min.js"></script>
+
+  {% if page.style %}
+    <style>
+      body {
+        color: {{page.style.color}};
         background: {{page.style.background}};
-	    } 
-	  </style>
-	{% endif %}
-	
+      }
+    </style>
+  {% endif %}
+
 </head>
 <body>
 
 <div id="container">
-	<header>
+  <header>
     <nav>
-      <a class="root" href="/">Reaktivo • Marcel Miranda</a>
+      <a class="root" href="/">Reaktivo</a>
       <span class="other_links">
-        <a href="/work/">Work</a>
-        <a href="/play/">Play</a>
         <a href="/acerca/">Acerca de</a>
       </span>
     </nav>
-	</header>
-	<div id="main" role="main">
+  </header>
+  <div id="main" role="main">
     {{ content }}
-	</div>
-	<footer>
+  </div>
+  <footer>
 
-	</footer>
+  </footer>
 </div> <!--! end of #container -->
 
 <script>
-	var _gaq = _gaq || [];
+  var _gaq = _gaq || [];
    _gaq.push(['_setAccount', 'UA-1116368-1']);
    _gaq.push(['_trackPageview']);
 
@@ -61,8 +59,8 @@
 </script>
 
 <!--[if lt IE 7 ]>
-	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script>
-	<script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>
+  <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script>
+  <script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>
 <![endif]-->
 
 </body>
