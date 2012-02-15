@@ -1,0 +1,1 @@
+rsync -avzP ./_site/ reaktivo.com:reaktivo.com/
