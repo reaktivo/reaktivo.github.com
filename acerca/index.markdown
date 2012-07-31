@@ -6,16 +6,21 @@ style:
   background: "#222"
 ---
 
-![Yo](/images/me.gif)
+![Yo](/images/me.gif)  
 Marcel Miranda  
 11/08/1986  
 Tijuana, México
 
-Actualmente residiendo en Cancún, trabajando con [Golpeavisa][1]
+Desarrollo software para web y móbiles. A parte de eso, me gusta el [Arte Interactivo][int_art].
+Últimamente la mayoría del [código][github] que escribo es Javascript especialmente via [CoffeeScript][coffee], hasta del lado del [servidor][nodejs] . Inclusive he [escrito][lox] [algunos][handler] [módulos][templates].
+Mis herramientas predilectas: [TextMate][macromates], [MooTools][moo], [jQuery](jquery) (que prácticamente ya es el default de js), [Ruby on Rails][ror].
 
-Desarrollo software para web y móbiles. A parte de eso, me gusta el [Arte Generativo][2] e [Interactivo][3]. Mis herramientas predilectas: [TextMate][4], [MooTools][5], [Ruby on Rails][6] y [Kohana][7] para proyectos pequeños en PHP. Para divertirme: [Processing][9], [Arduino][12], [Ruby/Processing][10] y [OpenFrameworks][11]. Me gustan las cámaras viejitas y tengo una estereoscópica la Nishika N8000, publico las fotos que tomo con ella [aquí][nishika]. Mis otras fotos las puedes encontrar en [flickr][flickr]. 
+Para divertirme me gusta experimentar con [Processing][processing], [Arduino][arduino] y [Ruby/Processing][ruby-processing].
+Me gustan las cámaras viejitas y tengo una estereoscópica la Nishika N8000, publico las fotos que tomo con ella [aquí][nishika].
+Mis otras fotos las puedes encontrar en [flickr][flickr].
 
 Otros lugares donde publico lo que hago:
+- [Coderwall][coderwall] La red social para coders.
 - [Github][github] Mis hábitos de programación.
 - [Last.fm][lastfm] Mis hábitos musicales.
 - [Forrst][forrst] Bocetos de diseño.
@@ -23,25 +28,29 @@ Otros lugares donde publico lo que hago:
 
 Aunque me inclino fuértemente por el desarrollo de *frontends* también me encuentro disponible para proyectos *backend*. Me puedes contactar en m@reaktivo.com
 
-Este sitio ha sido generado utilizando [jekyll][8].
+Este sitio ha sido generado utilizando [jekyll][jekyll].
 
 Gracias por visitar.
 
 "In order to understand recursion, one must first understand recursion"
 
-[1]: http://golpeavisa.com.mx
-[2]: http://en.wikipedia.org/wiki/Generative_art
-[3]: http://golpeavisa.com.mx
-[4]: http://macromates.com
-[5]: http://mootools.net
-[6]: http://rubyonrails.org
-[7]: http://kohanaframework.org
-[8]: http://jekyllrb.com/
-[9]: http://processing.org
-[10]: https://github.com/jashkenas/ruby-processing
-[11]: http://www.openframeworks.cc/
-[12]: http://arduino.cc/
+[int_art]: http://en.wikipedia.org/wiki/Interactive_art
+[macromates]: http://macromates.com
+[moo]: http://mootools.net
+[jquery]: http://jquery.com
+[ror]: http://rubyonrails.org
+[jekyll]: http://jekyllrb.com/
+[processing]: http://processing.org
+[ruby-processing]: https://github.com/jashkenas/ruby-processing
+[arduino]: http://arduino.cc/
 
+[coffee]: http://coffeescript.org/
+[nodejs]: http://nodejs.org/
+[lox]: https://github.com/reaktivo/lox
+[handler]: https://github.com/reaktivo/handler
+[templates]: https://github.com/reaktivo/templates
+
+[coderwall]: http://coderwall.com/reaktivo
 [nishika]: http://nishika.tumblr.com
 [flickr]: http://flickr.com/photos/reaktivo
 [github]: http://github.com/reaktivo
