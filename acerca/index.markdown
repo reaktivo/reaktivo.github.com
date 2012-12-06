@@ -9,13 +9,15 @@ style:
 ![Yo](/images/me.gif)  
 Marcel Miranda  
 11/08/1986  
-Tijuana, México
+Tijuana, México  
+m@reaktivo.com  
+[@reaktivo][twitter]
 
-Desarrollo software para web y móbiles. A parte de eso, me gusta el [Arte Interactivo][int_art].
-Últimamente la mayoría del [código][github] que escribo es Javascript especialmente via [CoffeeScript][coffee], hasta del lado del [servidor][nodejs] . Inclusive he [escrito][lox] [algunos][handler] [módulos][templates].
-Mis herramientas predilectas: [TextMate][macromates], [MooTools][moo], [jQuery](jquery) (que prácticamente ya es el default de js), [Ruby on Rails][ror].
+Desarrollo software para web y móbiles. Disfruto escribir [código][github].
+La mayoría siendo últimamente Javascript especialmente via [CoffeeScript][coffee], incluso de lado del [servidor][nodejs]. Algunos módulos [que][handler] [he][templates] [escrito][lox].
+Mis herramientas predilectas: [TextMate][macromates], [MooTools][moo], [jQuery](jquery), [Ruby on Rails][ror].
 
-Para divertirme me gusta experimentar con [Processing][processing], [Arduino][arduino] y [Ruby/Processing][ruby-processing].
+Para divertirme me gusta experimentar con [Processing][processing] y su *port* en ruby [Ruby/Processing][ruby-processing].
 Me gustan las cámaras viejitas y tengo una estereoscópica la Nishika N8000, publico las fotos que tomo con ella [aquí][nishika].
 Mis otras fotos las puedes encontrar en [flickr][flickr].
 
@@ -23,8 +25,6 @@ Otros lugares donde publico lo que hago:
 - [Coderwall][coderwall] La red social para coders.
 - [Github][github] Mis hábitos de programación.
 - [Last.fm][lastfm] Mis hábitos musicales.
-- [Forrst][forrst] Bocetos de diseño.
-- [Twitter][twitter] Ya sabes
 
 Aunque me inclino fuértemente por el desarrollo de *frontends* también me encuentro disponible para proyectos *backend*. Me puedes contactar en m@reaktivo.com
 
